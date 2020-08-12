@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d69daee029202433e8d09db5fc89a686",
+    "content-hash": "9af979a168ce20df90ec781e272f6cc5",
     "packages": [
         {
             "name": "cakephp/chronos",
@@ -1315,6 +1315,7 @@
                     "email": "jakub.onderka@gmail.com"
                 }
             ],
+            "abandoned": "php-parallel-lint/php-console-color",
             "time": "2018-09-29T17:23:10+00:00"
         },
         {
@@ -1361,6 +1362,7 @@
                 }
             ],
             "description": "Highlight PHP code in terminal",
+            "abandoned": "php-parallel-lint/php-console-highlighter",
             "time": "2018-09-29T18:48:56+00:00"
         },
         {
@@ -2862,27 +2864,27 @@
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/ProcessMaker/laravel-chunk-upload.git",
+                "url": "https://github.com/pionl/laravel-chunk-upload.git",
                 "reference": "388df281c1da2dcd2908fb7e0f763c678d7f1e92"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ProcessMaker/laravel-chunk-upload/zipball/388df281c1da2dcd2908fb7e0f763c678d7f1e92",
+                "url": "https://api.github.com/repos/pionl/laravel-chunk-upload/zipball/388df281c1da2dcd2908fb7e0f763c678d7f1e92",
                 "reference": "388df281c1da2dcd2908fb7e0f763c678d7f1e92",
                 "shasum": ""
             },
             "require": {
-                "illuminate/console": "5.1 - 5.8",
-                "illuminate/filesystem": "5.1 - 5.8",
-                "illuminate/http": "5.1 - 5.8",
-                "illuminate/support": "5.1 - 5.8"
+                "illuminate/console": "5.2 - 5.8 | ^6.0 | ^7.0",
+                "illuminate/filesystem": "5.2 - 5.8 | ^6.0 | ^7.0",
+                "illuminate/http": "5.2 - 5.8 | ^6.0 | ^7.0",
+                "illuminate/support": "5.2 - 5.8 | ^6.0 | ^7.0"
             },
             "require-dev": {
-                "friendsofphp/php-cs-fixer": "^2.12",
-                "laravel/laravel": "5.1 - 5.8",
-                "mockery/mockery": "^1.1.0",
+                "friendsofphp/php-cs-fixer": "^2.16.0",
+                "laravel/laravel": "5.2 - 5.8 | ^6.0 | ^7.0",
+                "mockery/mockery": "^1.1.0 | ^1.3.0",
                 "overtrue/phplint": "^1.1",
-                "phpunit/phpunit": "5.7 || 6.0 || 7.0 || 7.5"
+                "phpunit/phpunit": "5.7 | 6.0 | 7.0 | 7.5 | 8.4 | ^8.5"
             },
             "type": "library",
             "extra": {
@@ -2908,7 +2910,7 @@
                 }
             ],
             "description": "Service for chunked upload with several js providers",
-            "time": "2019-03-05T12:48:11+00:00"
+            "time": "2020-06-21T21:03:21+00:00"
         },
         {
             "name": "predis/predis",
@@ -3497,17 +3499,17 @@
             ],
             "authors": [
                 {
+                    "name": "Ben Ramsey",
+                    "email": "ben@benramsey.com",
+                    "homepage": "https://benramsey.com"
+                },
+                {
                     "name": "Marijn Huizendveld",
                     "email": "marijn.huizendveld@gmail.com"
                 },
                 {
                     "name": "Thibaud Fabre",
                     "email": "thibaud@aztech.io"
-                },
-                {
-                    "name": "Ben Ramsey",
-                    "email": "ben@benramsey.com",
-                    "homepage": "https://benramsey.com"
                 }
             ],
             "description": "Formerly rhumsaa/uuid. A PHP 5.4+ library for generating RFC 4122 version 1, 3, 4, and 5 universally unique identifiers (UUID).",
@@ -3610,9 +3612,9 @@
             "authors": [
                 {
                     "name": "Freek Van der Herten",
-                    "role": "Developer",
                     "email": "freek@spatie.be",
-                    "homepage": "https://spatie.be"
+                    "homepage": "https://spatie.be",
+                    "role": "Developer"
                 }
             ],
             "description": "Manipulate images with an expressive API",
@@ -3806,9 +3808,9 @@
             "authors": [
                 {
                     "name": "Freek Van der Herten",
-                    "role": "Developer",
                     "email": "freek@spatie.be",
-                    "homepage": "https://murze.be"
+                    "homepage": "https://murze.be",
+                    "role": "Developer"
                 }
             ],
             "description": "Associate files with Eloquent models",
@@ -5604,28 +5606,28 @@
         },
         {
             "name": "symfony/var-exporter",
-            "version": "v4.3.3",
+            "version": "v4.4.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-exporter.git",
-                "reference": "9dee83031dcf6dcb53bb7ec1c51de085329bf5cb"
+                "reference": "09f0aec4b8bfc25c1dd306e6203cf055c9886560"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-exporter/zipball/9dee83031dcf6dcb53bb7ec1c51de085329bf5cb",
-                "reference": "9dee83031dcf6dcb53bb7ec1c51de085329bf5cb",
+                "url": "https://api.github.com/repos/symfony/var-exporter/zipball/09f0aec4b8bfc25c1dd306e6203cf055c9886560",
+                "reference": "09f0aec4b8bfc25c1dd306e6203cf055c9886560",
                 "shasum": ""
             },
             "require": {
-                "php": "^7.1.3"
+                "php": ">=7.1.3"
             },
             "require-dev": {
-                "symfony/var-dumper": "^4.1.1"
+                "symfony/var-dumper": "^4.4.9|^5.0.9"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.3-dev"
+                    "dev-master": "4.4-dev"
                 }
             },
             "autoload": {
@@ -5660,7 +5662,21 @@
                 "instantiate",
                 "serialize"
             ],
-            "time": "2019-06-22T08:39:44+00:00"
+            "funding": [
+                {
+                    "url": "https://symfony.com/sponsor",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/fabpot",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/symfony/symfony",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2020-07-05T09:39:30+00:00"
         },
         {
             "name": "symfony/yaml",
@@ -5988,6 +6004,7 @@
                 "psr",
                 "psr-7"
             ],
+            "abandoned": "laminas/laminas-diactoros",
             "time": "2019-08-06T17:53:53+00:00"
         },
         {
@@ -6116,12 +6133,12 @@
             "version": "1.7.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/facebook/php-webdriver.git",
+                "url": "https://github.com/php-webdriver/php-webdriver-archive.git",
                 "reference": "e43de70f3c7166169d0f14a374505392734160e5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/facebook/php-webdriver/zipball/e43de70f3c7166169d0f14a374505392734160e5",
+                "url": "https://api.github.com/repos/php-webdriver/php-webdriver-archive/zipball/e43de70f3c7166169d0f14a374505392734160e5",
                 "reference": "e43de70f3c7166169d0f14a374505392734160e5",
                 "shasum": ""
             },
@@ -6169,6 +6186,7 @@
                 "selenium",
                 "webdriver"
             ],
+            "abandoned": "php-webdriver/webdriver",
             "time": "2019-06-13T08:02:18+00:00"
         },
         {
@@ -6216,8 +6234,8 @@
             "authors": [
                 {
                     "name": "Filipe Dobreira",
-                    "role": "Developer",
-                    "homepage": "https://github.com/filp"
+                    "homepage": "https://github.com/filp",
+                    "role": "Developer"
                 }
             ],
             "description": "php error handling for cool kids",
@@ -8001,13 +8019,13 @@
     "stability-flags": {
         "pion/laravel-chunk-upload": 20,
         "processmaker/laravel-i18next": 20,
-        "processmaker/nayra": 20,
-        "processmaker/pmql": 20
+        "processmaker/nayra": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
         "php": ">=7.2.0"
     },
-    "platform-dev": []
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
 }
